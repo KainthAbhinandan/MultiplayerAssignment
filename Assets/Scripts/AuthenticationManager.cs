@@ -167,7 +167,7 @@ public class AuthenticationManager : MonoBehaviour
       }
       catch (Exception e)
       {
-         Debug.Log("Sign up failed, exception: " + e);
+         Debug.Log("Sign up failed, exception: " + e); 
          return false;
       }
    }
